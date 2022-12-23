@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "allowJs": false,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "declaration": true,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "target": "es2020",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "allowUnreachableCode": true,
+    "lib": [
+      "es2018",
+      "es2019",
+      "es2020"
+    ]
+  },
+  "compileOnSave": false,
+  "include": [
+    "src"
+  ]
+}
